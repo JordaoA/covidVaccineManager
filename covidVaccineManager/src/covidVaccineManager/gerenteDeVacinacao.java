@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class gerenteDeVacina{
+public class gerenteDeVacinacao{
 	
 	String nome;
 	String cpf;
@@ -23,7 +23,7 @@ public class gerenteDeVacina{
 	boolean aptoDiasSegundaVacina;
 	
 	
-	public gerenteDeVacina(String nome, String cpf, String endereco, String numeroCartaoSUS, String email,
+	public gerenteDeVacinacao(String nome, String cpf, String endereco, String numeroCartaoSUS, String email,
 			String telefone, String profissao, int idade, List<String> comorbidades) {
 		this.nome = nome;
 		this.cpf = cpf;

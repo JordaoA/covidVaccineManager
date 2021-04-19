@@ -4,7 +4,7 @@ public abstract class PessoaState {
 	String state = "Individuo ainda não está apto para vacinação :/";
 	int diasParaSegundaDose = 20;
 	
-	public void setState(gerenteDeVacina pessoa){};
+	public void setState(gerenteDeVacinacao pessoa){};
 	
 	public String getState() {
 		return this.state;

@@ -8,7 +8,7 @@ public class NaoHabilitadaParaVacina extends PessoaState {
 			
 	}
 	@Override
-	public void setState(gerenteDeVacina pessoa) {
+	public void setState(gerenteDeVacinacao pessoa) {
 		pessoa.setState(new HabilitadaParaPrimeiraDose());
 	}
 	

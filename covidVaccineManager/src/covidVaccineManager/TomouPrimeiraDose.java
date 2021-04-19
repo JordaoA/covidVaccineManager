@@ -7,7 +7,7 @@ public class TomouPrimeiraDose extends PessoaState {
 	public TomouPrimeiraDose() {}
 	
 	@Override
-	public void setState(gerenteDeVacina pessoa) {
+	public void setState(gerenteDeVacinacao pessoa) {
 		//diasParaSegundaDose
 		if (super.diasParaSegundaDose == 0) {
 			pessoa.setState(new HabilitadaParaSegundaDose());

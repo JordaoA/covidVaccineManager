@@ -7,7 +7,7 @@ public class HabilitadaParaSegundaDose extends PessoaState {
 	public HabilitadaParaSegundaDose() {}
 	
 	@Override
-	public void setState(gerenteDeVacina pessoa) {
+	public void setState(gerenteDeVacinacao pessoa) {
 		pessoa.setState(new FinalizadaVacinacao());
 	}
 	
